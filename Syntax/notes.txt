@@ -1,0 +1,11 @@
+
+Syntax of variable
+
+scope variable-name = data or data-types
+
+scope are let, const, var.
+
+example
+let data = 10   (let data is the part od declaration &  = 10 are the part of intialization)
+
+const number = 234

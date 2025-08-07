@@ -1,0 +1,28 @@
+The Difference Between Statement and Expression.
+
+EXPRESSION 
+
+~ An Expression is anything that produces a value.
+It can be single value, a math calculation ,a function call, or a variable.
+
+You can put them inside other expressions or inside statements.
+
+Example: 10 (just a value)
+         5 + 3 (math expressions)
+         "Hello" + "!" (String Expression) 
+
+
+STATEMENT
+
+A Statement is a complete instruction for the computer to do something.
+The statements dont't always return a value, they just perform actions.
+They dont't give the value directly, but they control the flow of the program.
+
+Example: let a = 10; (variable declaration)
+         
+Statements are like commands:
+“Do this.”
+“Check this condition.”
+“Repeat this.”
+“Create a variable.”
+“Call this function.”         
