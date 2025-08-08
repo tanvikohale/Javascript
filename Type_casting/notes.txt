@@ -1,0 +1,25 @@
+Type Casting :
+~ Changing a value from one data type to another data type.
+
+IMPLICIT TYPE CASTING
+~ Happens automatically when javascript needs to convert value.
+~ javascript done this action without writing any extra code.
+
+EXAMPLE OF IMPLICIT
+let num1 = "5"
+let num2 = 3
+console.log(num1 - num2) || output -> 2
+
+EXPLICIT TYPE CASTING
+~ Manually we have have to change it.
+~ we have to tell the javascript exactly hoe to convert it.
+~ Like :- number -> string   || use string function to convert
+          number -> boolean  || use boolean function to convert
+          string -> number   || use Number function to convert
+          string -> boolean  || use boolean function to convert
+          boolean -> number  || use Number function to convert
+          boolean -> string  || use string function to convert
+
+EXAMPLE OF EXPLICIT
+let data = false
+data = Number(data) || output -> 0
