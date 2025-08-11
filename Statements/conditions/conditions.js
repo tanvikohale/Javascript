@@ -64,3 +64,32 @@ if(number > 0){
 }
 
 
+// logical oprators in coditional statements
+
+let x = 50
+let y = 50
+let z = 50
+let p = 50
+
+if((x==y) && (y==z) && (z==p)){
+    console.log("All values are same")
+}else if((x!=y) || (y!=z) || (z!=p)){
+    console.log("All values are not same")
+}
+
+ OR
+ 
+if(x==y){
+    if(y==z){
+        if(z==p){
+            console.log("All values are same")
+        }else{
+            console.log("All values are not same")
+        }
+    }else{
+        console.log("All values are not same")
+    }
+}else{
+    console.log("All values are not same")
+}
+
