@@ -42,3 +42,43 @@ choice = window.confirm("do you wish to continue yes/no")
 // console.log(string1.charAt(9))
 // console.log(string1.charAt(10))
 // console.log(string1.charAt(11))
+
+
+
+// 1.  WAP to write Only unique characters from "HELLO WORLD"
+    //  Output:- H e l o w r d
+
+let strr = "helloworld";
+let uniquechar = "";
+
+for (let i = 0; i < strr.length; i++) {
+    if (uniquechar.indexOf(strr[i]) === -1) { // check if first time
+        console.log(strr[i]); // print on new line
+        uniquechar += strr[i];      // mark as printed
+    }
+}
+
+
+// WAP to write only Unique characters with Counting no. Of characters from "HELLO WORLD"
+//       Output:- 
+// H-1
+// E-1
+// L-3
+// O-2
+// W-1
+// R-1
+// D-1
+
+let str1 = "helloworld";
+let done = "";
+
+for (let i = 0; i < str11.length; i++) {
+    if (done.indexOf(str1[i]) === -1) { // first time seeing it
+        let count = 0;
+        for (let j = 0; j < str1.length; j++) {
+            if (str1[i] === str1[j]) count++;
+        }
+        console.log(str1[i], "=", count);
+        done += str1[i];
+    }
+}
