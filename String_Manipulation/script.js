@@ -82,3 +82,17 @@ for (let i = 0; i < str11.length; i++) {
         done += str1[i];
     }
 }
+
+
+// create pass word using regex
+
+let isStrongPassword = (password) => {
+    let regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&*!?])[A-Za-z\d@#$%^&*!?]{8,}$/;
+    return regex.test(password);
+};
+
+// Example
+console.log(isStrongPassword("Nup@1234")); 
+console.log(isStrongPassword("password")); 
+console.log(isStrongPassword("NUP12345"));  
+console.log(isStrongPassword("Nup12345"));  
