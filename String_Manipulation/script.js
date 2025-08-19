@@ -52,9 +52,9 @@ let strr = "helloworld";
 let uniquechar = "";
 
 for (let i = 0; i < strr.length; i++) {
-    if (uniquechar.indexOf(strr[i]) === -1) { // check if first time
-        console.log(strr[i]); // print on new line
-        uniquechar += strr[i];      // mark as printed
+    if (uniquechar.indexOf(strr[i]) === -1) { 
+        console.log(strr[i]);
+        uniquechar += strr[i];     
     }
 }
 
@@ -73,7 +73,7 @@ let str1 = "helloworld";
 let done = "";
 
 for (let i = 0; i < str11.length; i++) {
-    if (done.indexOf(str1[i]) === -1) { // first time seeing it
+    if (done.indexOf(str1[i]) === -1) { 
         let count = 0;
         for (let j = 0; j < str1.length; j++) {
             if (str1[i] === str1[j]) count++;
